@@ -1,0 +1,20 @@
+{
+    "broadbandSections": {
+        "publicAccess": {
+            "title": "From Dial-up to Always-On",
+            "content": "For many Singaporeans, this was the year the internet truly began. Singtel SingNet opened the doors with public internet access and email services. Even today, spotting an email ending in “singnet” is a badge of early adoption.Competition soon followed, Pacific Internet in 1995 and Cyberway in 1996, shaking up the scene and giving consumers more choice. These were the dial-up days, when getting online meant listening to that unmistakable screech and hogging the family phone line.",
+            "additionalContent": "By the late 1990s, after a year-long pilot, Singapore ONE, the national broadband project, was rolled out. Suddenly, new buzzwords like “cable” and “ADSL” promised speeds over a hundred times faster than dial-up. Singapore CableVision (SCV) delivered broadband through its cable TV network, while Singtel provided ADSL over telephone lines.Adoption was slow at first, but Singapore soon surged ahead to become one of the most connected nations.By the 2000s, Singapore achieved one of the highest broadband penetration rates in the world, with over 90% of households connected.Over time, cable and ADSL were phased out (by 2018–2019), replaced by today’s fibre broadband, which provides ultra-fast speeds to nearly every home and business. Public internet access in Singapore went from dial-up in 1994 to broadband dominance in the 2000s, and now to nationwide fibre connectivity, supporting the Smart Nation vision.",
+            "source": "History of internet in Singapore"
+        },
+        "fiberInfrastructure": {
+            "title": "Fiber Optic Infrastructure",
+            "content": "Early Beginnings: Internet and Dial-Up (1990s)In 1994, Singtel launched SingNet, Singapore’s first public internet access and email service, marking the dawn of home internet usage. These dial-up days were slow, noisy, and often frustrating—the screech of the modem and the constant fight over the phone line defined much of the late 1990s experience.",
+            "additionalContent1": "Broadband Arrival: Singapore ONE, Cable, and ADSL (Late 1990s)In June 1998, after a successful pilot, Singapore ONE (One Network for Everyone) became the nation’s first nationwide broadband project. By December 1998, the network was available islandwide. Broadband access then arrived through two technologies:Cable broadband, delivered by Singapore CableVision (SCV), ADSL broadband, offered via Singtel’s telephone lines.Both offered speeds more than 100 times faster than dial-up, transforming the way Singaporeans connected.",
+            "additionalContent2": "Broadband Proliferation (2000s) though adoption started slowly, broadband soon took off. By the mid-2000s, Singapore had become one of the world’s most connected nations, with over 90% of households online.",
+            "additionalContent3": "Fibre Rollout & the Next-Gen NBN (2010s) as part of the iN2015 masterplan, the Next Generation Nationwide Broadband Network (Next-Gen NBN) was introduced to bring fibre broadband across the island. In 2008, OpenNet was chosen to build the infrastructure, and by 2010 fibre connections began reaching homes and businesses. By 2012, coverage extended to about 95% of all premises.",
+            "additionalContent4": "Phasing Out Legacy Technologies (Mid-2010s)with fibre firmly established, older technologies were retired: ADSL shut down in April 2018, followed by cable broadband in mid-2019.",
+            "additionalContent5": "Today: Ultra-Fast Fibre and Global Leadership as of January 2025, Singapore’s fixed broadband speeds averaged ~336 Mbps, the fastest in the world. Thanks to the nationwide NBN rollout, nearly every household is connected to high-speed fibre. Looking ahead, Singapore aims to deliver 10 Gbps domestic connectivity and expand its submarine cable capacity under the Digital Connectivity Blueprint.",
+            "source": "MyRepublic, GovTech, Wikipedia, NLB, TS2 Space"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early ISPs - History of Internet in Singapore</title>
+    <link rel="stylesheet" href="early-isps.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="early-isps.html" class="nav-link active">Early ISPs</a>
+                <a href="broadband.html" class="nav-link">Broadband</a>
+                <a href="modern-trends.html" class="nav-link">Modern Trends & Future</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="main-content">
+        <div class="container">
+            <div class="layout-grid">
+                <div class="left-column">
+                    <div class="rectangle-horizontal">
+                        <div class="image-placeholder" id="technet-container">
+                            <div class="content-loader">
+                                <h2>TechNet</h2>
+                                <div class="loading-spinner">Loading...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="squares-row">
+                        <div class="square">
+                            <div class="image-placeholder">
+                                <img src="images/Technet.jpg" alt="Technet">
+                            </div>
+                        </div>
+                        <div class="square">
+                            <div class="image-placeholder">
+                                <img src="images/pacificinternet.jpg" alt="Pacific internet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rectangle-horizontal">
+                        <div class="image-placeholder" id="cyberway-container">cyberway
+
+                        </div>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="rectangle-vertical">
+                        <div class="image-placeholder" id="pacific-container">Pacific Internet</div>
+                    </div>
+                    <div class="square">
+                        <div class="image-placeholder">
+                            <img src="images/cyberwayy.jpg" alt="Cyberway">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script id="content-template" type="x-tmpl-mustache">
+        <div class="content-box-filled">
+            <h2>{{title}}</h2>
+            <p>{{{formattedContent}}}</p>
+            {{#source}}
+            <div class="source">Source: {{source}}</div>
+            {{/source}}
+        </div>
+    </script>
+
+    <script src="https://unpkg.com/mustache@4.2.0/mustache.min.js"></script>
+    <script src="early-isps.js"></script>
+    <script src="content-loader.js"></script>
+</body>
+
+</html>

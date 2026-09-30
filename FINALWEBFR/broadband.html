@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broadband - History of Internet in Singapore</title>
+    <link rel="stylesheet" href="broadband.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="early-isps.html" class="nav-link">Early ISPs</a>
+                <a href="broadband.html" class="nav-link active">Broadband</a>
+                <a href="modern-trends.html" class="nav-link">Modern Trends & Future</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+
+            <!-- first half -->
+            <section class="content-section">
+                <h2 class="section-title">Public Internet Access</h2>
+                <div class="section-grid">
+                    <div class="content-box">
+                        <div class="content-placeholder" id="public-access-content">
+                            <h3>Loading...</h3>
+                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-placeholder">
+                            <img src="images/singnet.jpg" alt="singnet">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- second half -->
+            <section class="content-section">
+                <h2 class="section-title">Broadband Evolution</h2>
+                <div class="full-width-box">
+                    <div class="image-placeholder" id="fiber-content">
+                        Fiber Optic Infrastructure
+                    </div>
+                </div>
+            </section>
+
+            <script id="public-access-template" type="x-tmpl-mustache">
+                <h3>{{title}}</h3>
+                <p>{{content}}</p>
+                <p>{{additionalContent}}</p>
+                 {{#source}}
+            <div class="source">Source: {{source}}</div>
+            {{/source}}
+            </script>
+
+            <script id="fiber-template" type="x-tmpl-mustache">
+    <div style="text-align: left;">
+        <h3 style="color: #018281; font-size: 1.8rem; margin-bottom: 1.5rem;">{{title}}</h3>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{content}}</p>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{additionalContent1}}</p>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{additionalContent2}}</p>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{additionalContent3}}</p>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{additionalContent4}}</p>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{additionalContent5}}</p>
+        <p style="color: #555; line-height: 1.8; margin-bottom: 1rem;">{{additionalContent6}}</p>
+        {{#source}}
+        <div style="color: #666; font-style: italic; font-size: 0.9rem; margin-top: 2rem;">Source: {{source}}</div>
+        {{/source}}
+    </div>
+</script>
+            <!-- Scripts -->
+            <script src="https://unpkg.com/mustache@4.2.0/mustache.min.js"></script>
+            <script src="broadband.js"></script>
+            <script src="broadband-content-loader.js"></script>
+
+            <!-- Broadband Timeline -->
+            <section class="timeline-section">
+                <h2 class="section-title">Broadband Milestones</h2>
+                <div class="timeline-horizontal">
+                    <div class="timeline-item-h">
+                        <div class="timeline-year">1998</div>
+                        <div class="timeline-content-h">
+                            <h4>SingTel Magix</h4>
+                            <p>First cable broadband service launched</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item-h">
+                        <div class="timeline-year">2000</div>
+                        <div class="timeline-content-h">
+                            <h4>ADSL Introduction</h4>
+                            <p>Pacific Internet launches ADSL services</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item-h">
+                        <div class="timeline-year">2006</div>
+                        <div class="timeline-content-h">
+                            <h4>Wireless@SG</h4>
+                            <p>Free public WiFi initiative begins</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item-h">
+                        <div class="timeline-year">2010</div>
+                        <div class="timeline-content-h">
+                            <h4>Fiber Rollout</h4>
+                            <p>Next Gen NBN fiber deployment starts</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item-h">
+                        <div class="timeline-year">2015</div>
+                        <div class="timeline-content-h">
+                            <h4>95% Coverage</h4>
+                            <p>Near-complete fiber penetration achieved</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

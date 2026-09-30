@@ -1,0 +1,22 @@
+{
+    "earlyISPs": {
+        "technet": {
+            "title": "TechNet",
+            "content": "In 1990, the National University of Singapore (NUS) made history by establishing Singapore's very first internet link. Just a year later, the National Science and Technology Board (NSTB) launched **Technet**, a nationwide network that connected research and academic institutions. NUS played a central role in these early developments, but despite the momentum, the internet remained far from the daily lives of most Singaporeans at the time.",
+            "source": "The Straits Times",
+            "year": 1990
+        },
+        "pacificInternet": {
+            "title": "Pacific Internet",
+            "content": "Founded in 1995 with roots in TechNet—NUS’s pioneering research network—Pacific Internet quickly rose as one of Singapore’s earliest commercial Internet Service Providers. By the late 1990s, it had expanded across Asia, establishing a presence in Hong Kong, the Philippines, Thailand, Malaysia, Australia, and India. In 1999, it made history as the first Singaporean company to list on NASDAQ, a milestone for the nation’s growing tech ambitions. After merging with PacNet in 2008 and passing through several ownership changes, including Telstra, the company eventually became part of CITIC Telecom / Acclivis—yet the Pacific Internet name still lives on in the region today.",
+            "source": "GovTec, Wikipedia,Encyclopedia.com",
+            "year": 1995
+        },
+        "cyberway": {
+            "title": "Cyberway",
+            "content": "Cyberway emerged in March 1996 as Singapore’s third ISP—a joint venture between SPH Multimedia and ST Telecommunications.From the outset, it offered a fresh alternative in dial-up internet, joining SingNet and Pacific Internet in expanding online access to the public.By January 1999, Cyberway was acquired by StarHub, and by December of that year, it was officially rebranded as StarHub Internet, marking the end of its independent chapter.",
+            "source": "Wikipedia, Internet Society",
+            "year": 1996
+        }
+    }
+}
